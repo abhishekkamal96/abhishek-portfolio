@@ -7,11 +7,14 @@ import {
   SiGooglecloud,
   SiDocker,
   SiApacheflink,
+  SiTerraform,
+  SiGooglebigquery,
+  SiSelenium,
 } from "react-icons/si";
 
 import { TbTopologyStar3 } from "react-icons/tb";
 import { BsDiagram3 } from "react-icons/bs";
-import { FaNetworkWired } from "react-icons/fa";
+import { FaNetworkWired, FaRobot, FaCodeBranch } from "react-icons/fa";
 import { MdSchema } from "react-icons/md";
 
 export default function Skills() {
@@ -19,16 +22,21 @@ export default function Skills() {
   const skills = [
     { name: "Python", icon: <SiPython /> },
     { name: "SQL", icon: <SiMysql /> },
-    { name: "Data Structures", icon: <MdSchema /> },
-    { name: "Systems Design", icon: <TbTopologyStar3 /> },
-    { name: "Apache Flink", icon: <SiApacheflink /> },
     { name: "Kafka", icon: <SiApachekafka /> },
-    { name: "Kubernetes", icon: <SiKubernetes /> },
-    { name: "Distributed Systems", icon: <FaNetworkWired /> },
-    { name: "Cloud Native", icon: <SiGooglecloud /> },
-    { name: "Microservices", icon: <BsDiagram3 /> },
+    { name: "Apache Flink", icon: <SiApacheflink /> },
     { name: "GCP", icon: <SiGooglecloud /> },
+    { name: "Terraform", icon: <SiTerraform /> },
+    { name: "BigQuery", icon: <SiGooglebigquery /> },
+    { name: "MLOps", icon: <FaCodeBranch /> },
+    { name: "RAG Systems", icon: <FaRobot /> },
+    { name: "Kubernetes", icon: <SiKubernetes /> },
     { name: "Docker", icon: <SiDocker /> },
+    { name: "Distributed Systems", icon: <FaNetworkWired /> },
+    { name: "Systems Design", icon: <TbTopologyStar3 /> },
+    { name: "Microservices", icon: <BsDiagram3 /> },
+    { name: "Data Ingestion", icon: <MdSchema /> },
+    { name: "CI/CD", icon: <FaCodeBranch /> },
+    { name: "Selenium", icon: <SiSelenium /> },
   ];
 
 return (

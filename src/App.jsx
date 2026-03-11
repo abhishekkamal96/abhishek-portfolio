@@ -60,9 +60,7 @@ export default function App() {
     </h2>
 
     <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
-      Senior Software Engineer specializing in Backend Systems, Distributed
-      Architectures, Data Platforms and MLOps. Focused on building scalable,
-      reliable and production-grade software solutions.
+      Senior Software Engineer | Distributed Systems Design | Data Platforms | Backend Developer | Python, Kafka, Flink, GCP, Kubernetes, SQL | MLOps
     </p>
 
     <div className="space-x-4 pt-4">

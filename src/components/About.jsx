@@ -9,22 +9,26 @@ export default function About() {
         About <span className="text-blue-500">Me</span>
       </h2>
 
-
-      {/* Single Professional Paragraph */}
+      {/* Professional Paragraph */}
       <p className="text-gray-300 text-lg leading-loose">
-        I am a <span className="text-white font-semibold">Senior Software Engineer</span> with around 7 years of experience in backend, data, and platform engineering, specializing in building scalable distributed systems and real-time data platforms. My work focuses on designing <span className="text-blue-400 font-semibold">cloud-native, high-performance architectures</span> using technologies such as Kafka, Flink, Kubernetes, and GCP to deliver reliable and production-ready solutions at scale. I have strong expertise in problem-solving, data structures, system design, and database architecture, enabling me to create efficient, cost-optimized, and resilient systems.
+        I am a <span className="text-white font-semibold">Senior Software Engineer</span> with 7 years of experience designing and building <span className="text-blue-400 font-semibold">backend systems, distributed data platforms, and cloud-native infrastructure</span>, with a strong focus on reliability, maintainability, and operational efficiency.
 
         <br /><br />
 
-        Currently, I work at <span className="text-blue-400 font-semibold">Confluent</span>, where I design and develop large-scale production data platforms and end-to-end ML pipelines. I hold a B.Tech degree from <span className="text-blue-400 font-semibold">IIT Delhi</span> with a Minor in Business Management and am also an alumnus of Super 30. Outside of work, I enjoy reading books, playing chess, biking, and traveling, which help me stay balanced, focused, and continuously curious.
-      </p>
+        My work includes designing and developing <span className="text-white font-semibold">scalable, reliable, and cost-effective backend microservices</span> and event-driven data pipelines processing over a million events per day built on technologies such as <span className="text-white font-semibold">Kafka</span> and cloud data platforms. Earlier in my career, I also built automated data extraction systems using <span className="text-white font-semibold">Selenium</span> and <span className="text-white font-semibold">BeautifulSoup</span> to collect external data for analytics and downstream processing.
 
+        <br /><br />
+
+        More recently, I have focused on platform engineering and streaming systems, building configuration-driven data ingestion frameworks on <span className="text-white font-semibold">GCP</span>, developing <span className="text-white font-semibold">Kafka</span> and <span className="text-white font-semibold">Flink</span> pipelines, managing infrastructure with <span className="text-white font-semibold">Terraform</span>, contributing to internal <span className="text-white font-semibold">MLOps</span> platforms and cost optimization initiatives, and building a <span className="text-white font-semibold">RAG-based account intelligence platform</span> that delivers real-time actionable insights to account and sales teams.
+      </p>
 
       {/* Highlights */}
       <div className="pt-8 space-y-2 text-blue-300 font-medium">
-        <p>• Built large-scale real-time data platforms</p>
-        <p>• Designed systems processing millions of events daily</p>
-        <p>• Strong foundation in DSA & problem solving</p>
+        <p>- 7 years across backend systems, data platforms, and cloud-native infrastructure</p>
+        <p>- Event-driven pipelines processing millions of events daily</p>
+        <p>- Platform engineering with Kafka, Flink, GCP, Terraform, and MLOps</p>
+        <p>- Built RAG-based account intelligence delivering real-time business insights</p>
+        <p>- Strong foundation in distributed systems, system design, and problem solving</p>
       </div>
     </section>
   );
