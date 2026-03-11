@@ -79,7 +79,7 @@ bg-blue-100
           {skill.icon}
         </div>
 
-<p className="text-base text-blue-900 font-bold">
+<p className="text-base text-blue-900 font-bold text-center">
           {skill.name}
         </p>
       </motion.div>
