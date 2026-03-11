@@ -14,12 +14,12 @@ export default function Contact() {
   const contacts = [
     { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/abhishekkumarkamal/" },
 
-    { icon: <FaGithub />, link: "https://github.com/your-github-id" },
+    { icon: <FaGithub />, link: "https://github.com/abhishekkamal96" },
 
     // ⭐ LeetCode added (same style, no white bg)
-    { icon: <SiLeetcode className="fill-current" />, link: "https://leetcode.com/your-username" },
+    { icon: <SiLeetcode className="fill-current" />, link: "https://leetcode.com/u/abhishekkamal96/" },
 
-    { icon: <FaEnvelope />, link: "mailto:snehanaik856@gmail.com" },
+    { icon: <FaEnvelope />, link: "mailto:abhishekkamalcareer@gmail.com" },
 
     { icon: <FaPhone />, link: "tel:+919560939353" },
   ];

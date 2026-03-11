@@ -13,7 +13,7 @@ export default function Experience() {
         "Built and automated an end-to-end MLOps platform using Google Vertex AI for data science teams covering entire ML lifecycle usecases like data loading, training, evaluation, serving, and deployment workflows.",
         "Designed an automated BigQuery cleanup and export workflow that moved unused data to lower-cost storage, saving roughly $5,000 per month.",
       ],
-      skills: ["Kafka", "Flink", "Terraform", "GCP", "MLOps", "Distributed Systems"],
+      skills: ["Kafka", "Flink", "Terraform", "GCP", "MLOps", "Distributed Systems", "Python", "CI/CD"],
     },
     {
       role: "Software Engineer (Backend)",
@@ -27,7 +27,7 @@ export default function Experience() {
         "Integrated HashiCorp Vault with Consul as backend storage for managing and securing JioHealth secrets.",
         "Led the integration of Ayushman Bharat Digital Mission (ABDM) with JioHealth to bridge workflows across healthcare stakeholders.",
       ],
-      skills: ["Python", "MongoDB", "Microservices", "Event-Driven Systems", "APIs"],
+      skills: ["Python", "MongoDB", "Microservices", "Event-Driven Systems", "APIs", "SQL", "Docker", "Kubernetes", "Azure Devops", "Kafka", "Azure Data Lake Storage"],
     },
     {
       role: "Data Scientist - AI Centre of Excellence",
@@ -38,7 +38,7 @@ export default function Experience() {
         "Developed Selenium and BeautifulSoup-based scraping, extraction, and processing workflows for Covid-19 statistics, grocery, medicine, and YouTube data, serving high-scale backend and analytics use cases.",
         "Worked on products and platforms including the Machli React Native app, AI models such as face-match and medicine image classification, and a centralized knowledge platform for large-scale data processing.",
       ],
-      skills: ["Python", "ML", "AI", "Selenium", "BeautifulSoup"],
+      skills: ["Python", "ML", "AI", "Selenium", "BeautifulSoup", "React Native"],
     },
     {
       role: "Co-Founder & President",
