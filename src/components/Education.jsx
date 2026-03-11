@@ -5,13 +5,13 @@ export default function Education() {
 
   const education = [
     {
-      title: "Indian Institute of Technology, Delhi",
+      title: "Indian Institute of Technology(IIT), Delhi",
       subtitle: "Bachelor of Technology (B.Tech)",
       year: "2015 – 2019",
       desc: "Computer Science foundation, problem solving, data structures, algorithms and system design. Active in Formula Racing Club, Toastmasters & leadership activities."
     },
     {
-      title: "Indian Institute of Technology, Delhi",
+      title: "Indian Institute of Technology(IIT), Delhi",
       subtitle: "Minor in Business Management",
       year: "2017 – 2019",
       desc: "Studied accounting, finance, business strategy and management fundamentals to complement technical skills."
@@ -26,7 +26,7 @@ export default function Education() {
       title: "Jawahar Navodaya Vidyalaya (JNV)",
       subtitle: "Class 6th – 12th (CBSE)",
       year: "2007 – 2014",
-      desc: "CGPA 9.8 in 10th, 87% in 12th. Represented school in chess tournaments. NCC training developed discipline & leadership."
+      desc: "CGPA 9.8 in 10th, 87.4% in 12th. Represented school in chess tournaments. NCC training developed discipline & leadership."
     }
   ];
 

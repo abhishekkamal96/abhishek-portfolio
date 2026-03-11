@@ -10,6 +10,7 @@ import {
   SiTerraform,
   SiGooglebigquery,
   SiSelenium,
+  SiMongodb,
 } from "react-icons/si";
 
 import { TbTopologyStar3 } from "react-icons/tb";
@@ -37,6 +38,7 @@ export default function Skills() {
     { name: "Data Ingestion", icon: <MdSchema /> },
     { name: "CI/CD", icon: <FaCodeBranch /> },
     { name: "Selenium", icon: <SiSelenium /> },
+    { name: "MongoDB", icon: <SiMongodb /> },
   ];
 
 return (
