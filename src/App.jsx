@@ -68,9 +68,12 @@ export default function App() {
         View Projects
       </button>
 
-      <button className="px-6 py-3 border border-gray-600 rounded-lg hover:bg-gray-800 transition">
+      <a
+        href="#contact"
+        className="inline-block px-6 py-3 border border-gray-600 rounded-lg hover:bg-gray-800 transition"
+      >
         Contact Me
-      </button>
+      </a>
 
         {/* ⭐ Resume Button */}
   <a
