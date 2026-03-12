@@ -75,9 +75,9 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-20 px-6">
+    <section id="experience" className="py-24 px-6">
       {/* Heading */}
-      <h2 className="text-center text-5xl font-bold text-blue-500 mb-20">
+      <h2 className="text-center text-5xl font-bold text-blue-700 mb-20">
         EXPERIENCE
       </h2>
 
@@ -86,7 +86,7 @@ export default function Experience() {
         <div
           className="
             absolute left-4 top-0 h-full w-[2px]
-            bg-blue-500/40
+            bg-blue-300
           "
         />
 
@@ -99,8 +99,8 @@ export default function Experience() {
                   absolute left-[6px] top-6
                   w-4 h-4
                   rounded-full
-                  bg-blue-500
-                  shadow-[0_0_1px_rgba(59,130,246,0.9)]
+                  bg-blue-700
+                  shadow-[0_0_1px_rgba(29,78,216,0.7)]
                 "
               />
 
@@ -111,29 +111,29 @@ export default function Experience() {
                 viewport={{ once: false, amount: 0.01 }}
                 transition={{ delay: i * 0.05 }}
                 className="
-                  bg-[#0f172a]
+                  bg-white
                   p-7
                   rounded-2xl
-                  border border-blue-400/30
-                  shadow-[0_0_10px_rgba(96,165,250,0.25)]
-                  hover:shadow-[0_0_20px_rgba(59,130,246,0.8)]
-                  hover:border-blue-500
+                  border border-blue-100
+                  shadow-[0_8px_30px_rgba(15,23,42,0.08)]
+                  hover:shadow-[0_14px_32px_rgba(37,99,235,0.14)]
+                  hover:border-blue-300
                   transition-all duration-300
                 "
               >
-                <h3 className="text-xl font-bold text-blue-400">
+                <h3 className="text-xl font-bold text-blue-800">
                   {exp.role}
                 </h3>
 
-                <p className="text-white font-semibold">
+                <p className="text-slate-900 font-semibold">
                   {exp.company}
                 </p>
 
-                <p className="text-sm text-gray-400 mb-4">
+                <p className="text-sm text-slate-500 mb-4">
                   {exp.duration}
                 </p>
 
-                <ul className="list-disc pl-5 text-gray-300 space-y-1 mb-4">
+                <ul className="list-disc pl-5 text-slate-700 space-y-1 mb-4">
                   {exp.details.map((d, index) => (
                     <li key={index}>{d}</li>
                   ))}
@@ -147,9 +147,9 @@ export default function Experience() {
                         text-xs
                         px-3 py-1
                         rounded-full
-                        bg-blue-500/10
-                        border border-blue-400/40
-                        text-blue-300
+                        bg-blue-50
+                        border border-blue-100
+                        text-blue-800
                       "
                     >
                       {s}

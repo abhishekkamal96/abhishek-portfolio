@@ -42,10 +42,10 @@ export default function Skills() {
   ];
 
 return (
-<section id="skills" className="py-20 px-6">
+<section id="skills" className="py-24 px-6">
 
   {/* Heading */}
-  <h2 className="text-center text-5xl font-bold text-blue-500 mb-12">
+  <h2 className="text-center text-5xl font-bold text-blue-700 mb-12">
     SKILLS
   </h2>
 
@@ -64,24 +64,24 @@ return (
           w-32 h-28
           flex flex-col items-center justify-center
           rounded-xl
-bg-blue-100
+bg-white
 
 
 
-          border border-blue-400/40
-          shadow-[0_0_8px_rgba(96,165,250,0.25)]
-          hover:shadow-[0_0_25px_rgba(59,130,246,0.85)]
-          hover:border-blue-500
+          border border-blue-100
+          shadow-[0_8px_30px_rgba(15,23,42,0.08)]
+          hover:shadow-[0_14px_32px_rgba(37,99,235,0.14)]
+          hover:border-blue-300
           hover:-translate-y-2
           transition-all duration-300
           cursor-pointer
         "
       >
-        <div className="text-5xl text-blue-500 mb-1">
+        <div className="text-5xl text-blue-700 mb-1">
           {skill.icon}
         </div>
 
-<p className="text-base text-blue-900 font-bold text-center">
+<p className="text-base text-slate-800 font-bold text-center">
           {skill.name}
         </p>
       </motion.div>
